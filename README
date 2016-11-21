@@ -2,3 +2,13 @@ http://support.udemy.com/forums/167053-v3-new-site-feeback/suggestions/2965270-i
 http://support.udemy.com/forums/148334-user-ideas/suggestions/2967798-restore-the-variable-speeds-for-watching-courses
 
 Udemy.com V3 doesn't support variable speed video playback. I can't stand listening to most video at 1.0x but fortunately Udemy V3 uses the HTML5 <video> element so it's super easy to adjust playback speed anyways.
+
+To install this bookmarklet:
+1) Copy the contents of "bookmarklet.js" to your clipboard (cmd-c or control-c typically)
+  - for example, copy the line of text that looks like this:
+    javascript:void((function(){document.getElementsByTagName('video')[0].playbackRate=prompt('How fast do you want to go?', '1.618');})());
+2) In your browser, create a new bookmark, and paste this text as the bookmark URL/location
+3) Give the bookmark a name (if applicable) and save it
+
+To use:
+When viewing an HTML5 video that is not in an IFrame, you can use this bookmarklet to change the speed if speed controls are not otherwise available
